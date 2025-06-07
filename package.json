@@ -1,0 +1,27 @@
+{
+  "name": "custom-cli",
+  "version": "1.0.0",
+  "description": "A CRUD CLI application",
+  "main": "index.js",
+  "bin": {
+    "custom-cli": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "link": "npm link"
+  },
+  "keywords": [
+    "cli",
+    "crud"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "commander": "^9.4.0",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.4"
+  }
+}
